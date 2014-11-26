@@ -51,19 +51,16 @@ table {
 
 body {
     background-color: LightGray;
+
 }
 div {
     border: 1px solid Chocolate;
 }
 
 /* Navigation Section */
+
 .top-navigation {
     background-color: #fff;
-    font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
-	color: #838994; 
-	letter-spacing: 0.03em;
-
 }
 .top-navigation  .content {
     width: 970px;
@@ -71,25 +68,104 @@ div {
     margin: 0 auto;
     padding:0 15px;
 }
-.top-navigation .content > .logo {
+
+.top-navigation .logo {
 	height:70px;
 }
 
-.top-navigation .links  li {
-	display: inline-block;
-	margin-left: 25px;
+/* I did put the color as below, but in the broweser, the color would be diffrent. dont't know why */
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
 }
-.top-navigation .links  li:hover {
-	cursor:pointer;
-	color:#333333;
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
 }
-
-.top-navigation .links > .active {
-
+.top-navigation .links .active {
     color: #4c5058;
-    font-weight: 600;
+    font-weight: 500;
 }
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
 }
+
+
+/* background image section */
+
+.information {
+	background-image: url('../img/first-background .jpg');
+	background-position:center bottom;
+	background-repeat:no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+
+}
+
+.information .content h1 {
+	color:white;
+	font-family: "roboto", sans-serif;
+	font-size:3em;
+	font-weight:300px;
+	text-align:center;
+	padding-top: 4.5em;
+}
+
+.information .content h3 {
+	color:white;
+	font-family: "roboto", sans-serif;
+	font-size:1.5em;
+	font-weight:300px;
+	text-align:center;
+	padding-top: 1em;
+
+}
+
+
+
+.big-button {
+	margin :2rem auto;
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+
+    width: 9.688rem;
+    background-color:#f15a29;
+    font-size:1.125rem;
+    color:white;
+
+   display: block;
+}
+
+.big-button:hover {
+	cursor:pointer;
+	color:#421304;
+}
+
+/*
+.small-button {
+
+	margin :2rem auto;
+	text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+
+    width: 9.688rem;
+    background-color:#f15a29;
+    font-size:1.125rem;
+    color:white;
+    margin-left:2rem;
+   /* display: block;    
+}*/
 
 
 
