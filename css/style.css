@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -85,7 +85,7 @@ div {
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
-    
+
 }
 .top-navigation .links li {
     display: inline-block;
@@ -168,7 +168,7 @@ div {
     font-size:1.125rem;
     color:white;
     margin-left:2rem;
-   /* display: block;    
+   /* display: block;
 }*/
 
 /* icon section */
@@ -176,42 +176,54 @@ div {
 
 .cases {
 	background-color: #fff;
-	
+	overflow: hidden;
+	padding-bottom: 5rem;
+
 }
 
 .cases h2 {
-	
+
 	font-size:2.75rem;
 	font-weight:300;
 	margin: 1.625rem 0 3.125rem;
 	vertical-align: baseline;
-	
+
 }
 
 .cases .content {
+	margin: 7.875rem auto 0 auto;
+  padding: 0 0.938rem;
+  min-width: 37.5rem;
 	color: #1d1e21;
-	text-align:center;
-	margin-top:7.875rem;
+	text-align: center;
 }
 
-
 .cases .devices {
+	display: inline-block;
+}
+.cases .devices >li {
 	width:33.33333333%;
-	display:inline-block;
+	float: left;
+
+
+/*	display:inline-block;*/
 	/*border: 1px solid black; */
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
+/*    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-	height:4em;
-	margin :0 -6rem;
+	height:4em;*/
+	/*margin :0 -6rem;*/
 }
 
 /* difficult for lining up horizontally the images and texts*/
 .cases .devices h3 {
-	width:33.33333333%;
+/*	width:33.33333333%;
 	display:inline-block;
 	font-weight:400;
 	font-size:1.563rem;
+	margin: 2.5rem 0px 1.875rem;*/
+	font-weight: 400;
+	font-size: 1.563rem;
 	margin: 2.5rem 0px 1.875rem;
 }
 
@@ -239,7 +251,7 @@ div {
     width:730px;
     margin-left :auto;
 	margin-right:auto;
-} 
+}
 
 .social .icons li {
 	border: 1px solid #eaebec;
@@ -269,9 +281,32 @@ div {
 	color:#838994;
 }
 
+}
 
 
+.content {
+  min-width: 37.5rem;
+}
 
+/**
+ * Responsive Design
+ 
+@media (min-width: 48rem) {
+    .content {
+        width: 46rem;
+    }
+}
+@media (min-width: 62rem) {
+    .content {
+        width: 60rem;
+    }
+}
+@media (min-width: 75rem) {
+    .content {
+        width: 60%;
+    }
+} */
+ 
 
 
 
